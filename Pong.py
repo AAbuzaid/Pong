@@ -24,7 +24,7 @@ score1 = 0
 score2 = 0
 
 
-# initialize ball_pos and ball_vel for a new ball in middle of table
+# initialize ball_pos and ball_vel for a new ball in middle of table 
 # if direction is RIGHT, the ball's velocity is upper right, else upper left
 def spawn_ball(direction):
     global ball_pos, ball_vel # these are vectors stored as lists
